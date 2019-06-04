@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="YB">#000000</color>
+    <color name="TS">#a3a4a4</color>
+    <color name="fybg">#40c269</color>
+    <color name="YB1">#eae8ea</color>
+    <color name="Gbg">#FFFFFF</color>
+    <color name="GbgA">#4a4a4b</color>
+    <color name="GbgB">#FFFFFF</color>
+    <color name="Hbg">#b49f9f9f</color>
+
+    <color name="KFtext">#807f7f</color>
+    <color name="KFbg">#efefef</color>
+
+    <color name="KFtextcolor">#000000</color>
+    <color name="tl">#666768</color>
+    <color name="color_gray_deep">#5e5e60</color>
+
+    <color name="finf_white">#000000</color>
+
+    <color name="inkf_Gbg">#0a0909</color>
+    <color name="me_bleak1">#000000</color>
+    <color name="second_text">#0ef2d4</color>
+    <color name="second_tl">#ffffff</color>
+    <color name="radio_text">#bebbbb</color>
+    <color name="bottm_text">#000000</color>
+    <color name="buttonupcolor">#ef7d1a</color>
+
+    <color name="bottom_layout_text_b">#000000</color>
+    <color name="bottom_layout_text_w">#29d74a</color>
+    <!--pupop窗口-->
+    <color name="popbg">#29262b</color>
+    <color name="poptext">#ffffff</color>
+    <color name="poptext1">#6e8aef</color>
+    <!--me2窗口-->
+    <color name="me2_tl_text">#292828</color>
+    <color name="dxk_bg">#435cff</color>
+    <color name="text_btn_tl">#fefffe</color>
+    <color name="text_btn_tl_on">#dcdbda</color>
+    <color name="me2_Hbg">#ececec</color>
+
+    <!--root窗口-->
+    <color name="root_tl_text">#0b0b0b</color>
+    <color name="root_tl_rad">#f50404</color>
+
+    <!--遮挡窗口-->
+    <color name="zd_bg">#800b0b0b</color>
+
+    <color name="sx">#939393</color>
+
+</resources>

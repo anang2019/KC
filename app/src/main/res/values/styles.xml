@@ -1,0 +1,76 @@
+<resources>
+    <style name="Theme.AppStartLoadTranslucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- spinner -->
+    <style name="spinner_style">
+        <item name="android:background">@drawable/myspinner</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">25dip</item>
+    </style>
+
+    <style name="spinner_style1">
+        <item name="android:background">@drawable/myspinner</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="my_button">
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+
+    <style name="text_button1">
+        <item name="android:background">@drawable/textbutton</item>
+        <item name="android:textColor">@color/dxk_bg</item>
+    </style>
+
+    <style name="text_button">
+        <item name="android:background">@drawable/textbutton</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/root_tl_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+
+    </style>
+
+    <!--动画-->
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <!--星级-->
+    <style name="starRatingBar" parent="@style/Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressDrawable">@drawable/ratingbar_full</item>
+        <item name="android:numStars">5</item>
+        <item name="android:rating">3.5</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:maxHeight">24dp</item>
+    </style>
+
+    <!--弹出窗口-->
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@color/sx</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>
+

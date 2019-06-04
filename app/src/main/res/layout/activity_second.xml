@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anang.kc.MainActivity"
+    android:background="@color/GbgA"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="提单"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textColor="@color/second_tl"
+            android:id="@+id/textView8" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:ems="10"
+            android:textColor="@color/second_text"
+            android:id="@+id/editText6" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="@color/second_text"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:hint="产地"
+            android:textColorHint="@color/TS"
+            android:id="@+id/editText5" />
+
+        <TextView
+            android:text="数量比"
+            android:layout_width="0dp"
+            android:textColor="@color/second_tl"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:padding="0dp"
+            android:layout_height="35dp"
+            android:gravity="center"
+            style="@style/spinner_style"
+            android:entries="@array/posfull"
+            android:id="@+id/noberbi" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="数量(吨)"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/second_tl"
+            android:onClick="evlClick"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textView10" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textColor="@color/second_text"
+            android:id="@+id/editText7" />
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+
+            android:ems="10"
+            android:hint="数量(袋)"
+            android:textColorHint="@color/TS"
+            android:textColor="@color/second_text"
+            android:id="@+id/editText71" />
+        <TextView
+            android:text="储位"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="@color/second_tl"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/second_text"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/editText8" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="公司"
+            android:layout_width="0dp"
+            android:textColor="@color/second_tl"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:textColor="@color/second_text"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/editText2" />
+
+
+        <TextView
+            android:text="备注"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="@color/second_tl"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:textColor="@color/second_text"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/editText3" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:text="联系人"
+
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/second_tl"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+        <MultiAutoCompleteTextView
+            android:completionThreshold="4"
+            android:id="@+id/editText4"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:textColor="@color/second_text"
+            android:inputType="textMultiLine"
+            android:ems="5"
+            android:maxLines="2"
+            android:hint="" />
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:padding="0dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            style="@style/spinner_style"
+            android:id="@+id/noberbi1" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_width="0dp">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:text="花"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/radio_text"
+                        android:onClick="RemarksClick"
+                        android:id="@+id/radioButton10"
+                        android:checked="false" />
+
+                    <RadioButton
+                        android:text="白"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton11"
+                        android:textColor="@color/radio_text"
+                        android:onClick="RemarksClick"
+                        android:layout_weight="1" />
+                </RadioGroup>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:id="@+id/rg1">
+                        <RadioButton
+                            android:text="埃塞"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/radioButton9"
+                            android:textColor="@color/radio_text"
+                            android:onClick="CountryClick" />
+
+                        <RadioButton
+                            android:text="尼日"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/radioButton8"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:focusable="false" />
+
+                        <RadioButton
+                            android:text="多哥"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/radioButton7"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:focusable="false" />
+
+                        <RadioButton
+                            android:text="马里"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/radioButton6"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:focusable="false" />
+                    </RadioGroup>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:id="@+id/rg2">
+
+
+                        <RadioButton
+                            android:text="苏丹"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioButton15"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="坦桑"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioButton14"
+                            android:textColor="@color/radio_text"
+                            android:onClick="CountryClick"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="莫桑"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioButton13"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:layout_weight="1" />
+
+                        <RadioButton
+                            android:text="塞内"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/radioButton12"
+                            android:onClick="CountryClick"
+                            android:textColor="@color/radio_text"
+                            android:layout_weight="1" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:textColor="@color/second_text"
+            android:layout_height="35dp"
+            android:inputType="textPersonName"
+            android:hint="2017-08-30"
+            android:paddingTop="0dp"
+            android:paddingLeft="0dp"
+            android:paddingBottom="0dp"
+            android:textColorHint="@color/TS"
+            android:ems="10"
+            android:id="@+id/editText2date" />
+        <TextView
+            android:text="饱满"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:textColor="@color/second_tl"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:padding="0dp"
+            style="@style/spinner_style"
+            android:entries="@array/posfull"
+            android:id="@+id/star1" />
+
+        <TextView
+            android:text="杂粒"
+            android:layout_width="0dp"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textColor="@color/second_tl"
+            android:layout_weight="2"
+            android:textSize="12sp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:padding="0dp"
+            style="@style/spinner_style"
+            android:entries="@array/posfull"
+            android:id="@+id/star2" />
+        <TextView
+            android:text="花白"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/second_tl"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="12sp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:padding="0dp"
+            style="@style/spinner_style"
+            android:entries="@array/posfull"
+            android:id="@+id/star3" />
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:id="@+id/scrollviev2">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:id="@+id/tableLayout11">
+
+            </TableLayout>
+        </ScrollView>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:text="保存"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            style="@style/my_button"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/button2" />
+
+        <Button
+            android:text="同前"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:onClick="LikeOld"
+            style="@style/my_button"
+            android:id="@+id/button5" />
+
+        <Button
+            android:text="同后"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:onClick="LikeOld"
+            style="@style/my_button"
+            android:id="@+id/button6" />
+
+        <Button
+            android:text="同左"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:onClick="LikeOld"
+            style="@style/my_button"
+            android:id="@+id/button4" />
+
+        <Button
+            android:text="同右"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:onClick="LikeOld"
+            style="@style/my_button"
+            android:id="@+id/button" />
+    </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView
+                    android:text="上传"
+                    android:layout_width="0dp"
+                    android:textColor="@color/second_tl"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text=""
+                    android:layout_width="0dp"
+                    android:textColor="@color/second_text"
+                    android:layout_weight="5"
+                    android:id="@+id/sccg"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="5dp" >
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <Button
+                    android:text="拍照"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="2"
+                    style="@style/my_button"
+                    android:id="@+id/buttondopic" />
+
+                <TextView
+                    android:text="或者"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:textColor="@color/second_tl"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center" />
+                <Button
+                    android:text="选择图片"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    style="@style/my_button"
+                    android:id="@+id/buttonpic" />
+                <Button
+                    android:text="删除"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="2"
+                    style="@style/my_button"
+                    android:id="@+id/buttonpsc" />
+                <Button
+                    android:text="批量上传"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="3"
+                    style="@style/my_button"
+                    android:id="@+id/buttondopic2" />
+            </TableRow>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout >

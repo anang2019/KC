@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="900dp"
+    android:gravity="center_vertical"
+    android:layout_height="30dp">
+
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/PiaoHao"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="2" />
+
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ChanDi"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="5" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/CangKu"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="6" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ChuWei"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="3" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/GongSi"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="3" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/BeiZhu"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="2" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/PiaoHao1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="3" />
+
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ChanDi1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="5" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/CangKu1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="9" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ChuWei1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="3" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/GongSi1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="4" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/GongSi12"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="4" />
+    <TextView
+        android:textColor="@color/YB"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/BeiZhu1"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_weight="6" />
+</LinearLayout>

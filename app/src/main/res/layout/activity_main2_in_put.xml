@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Gbg"
+
+    android:orientation="vertical">
+    <include layout="@layout/top_layout" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_height="0dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioGroup
+            android:layout_width="0dp"
+            android:layout_weight="19"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radioButton2">
+        <RadioButton
+            android:text="一个月"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButto1"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="今天"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButto2" />
+
+        <RadioButton
+            android:text="按日期"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButto3" />
+
+        <Button
+            android:text="起始"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            style="@style/my_button"
+            android:visibility="invisible"
+            android:id="@+id/register_btn1Q" />
+
+        <Button
+            android:text="终止"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="3"
+            style="@style/my_button"
+            android:visibility="invisible"
+            android:id="@+id/register_btn1Z" />
+        </RadioGroup>
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="5dp" >
+        </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:entries="@array/colorYW2"
+            style="@style/spinner_style1"
+            android:id="@+id/s2pinner1" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:entries="@array/colorYW1"
+            style="@style/spinner_style1"
+            android:id="@+id/s2pinner22" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:entries="@array/colorCD1"
+            style="@style/spinner_style1"
+            android:id="@+id/s1pinner" />
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:layout_weight="4"
+            style="@style/spinner_style1"
+            android:id="@+id/s1pinner2" />
+
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="5dp" >
+        </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="3"
+                style="@style/spinner_style1"
+                android:id="@+id/spinner41" />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="2"
+                style="@style/spinner_style1"
+                android:id="@+id/spinner51" />
+        <Button
+            android:text="编辑"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:textColor="@color/root_tl_rad"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:visibility="invisible"
+            style="@style/my_button"
+            android:id="@+id/register_btnedit" />
+        <Button
+            android:text="查看"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:layout_marginRight="10dp"
+            style="@style/my_button"
+            android:id="@+id/register_btncx" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+    </TableRow>
+    </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_weight="16"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="900dp"
+                android:background="@drawable/findbk"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="900dp"
+                    android:background="@drawable/findbk"
+                    android:gravity="center_vertical"
+                    android:layout_height="40dp" >
+
+                    <TextView
+                        android:text="类型"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="2" />
+
+                    <TextView
+                        android:text="日期"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="5" />
+
+                    <TextView
+                        android:text="仓库"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="6" />
+
+                    <TextView
+                        android:text="票号"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="3" />
+                    <TextView
+                        android:text="品种"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="3" />
+                    <TextView
+                        android:text="花色"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="2" />
+                    <TextView
+                        android:text="数量"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="3" />
+                    <TextView
+                        android:text="货物公司"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="5" />
+
+                    <TextView
+                        android:text="联系人"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="9" />
+                    <TextView
+                        android:text="单价"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="3" />
+                    <TextView
+                        android:text="买方"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="4" />
+                    <TextView
+                        android:text="买方地点"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="4" />
+                    <TextView
+                        android:text="买方电话"
+                        android:textColor="@color/finf_white"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:layout_weight="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/l1istView" />
+                </TableRow>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" >
+        <TextView
+            android:text="入货总计:"
+            android:textColor="@color/finf_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_weight="1" />
+        <TextView
+            android:text=""
+            android:textColor="@color/root_tl_rad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/textin"
+            android:layout_weight="2"
+            android:textAlignment="center" />
+        <TextView
+            android:text="出货总计:"
+            android:textColor="@color/finf_white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_weight="1" />
+        <TextView
+            android:text=""
+            android:textColor="@color/root_tl_rad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:id="@+id/textput"
+            android:layout_weight="2"
+            android:textAlignment="center" />
+    </TableRow>
+
+    <!-- 表格1-伸展 -->
+
+</LinearLayout>

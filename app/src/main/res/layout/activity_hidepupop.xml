@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hidepupop"
+    android:layout_width="wrap_content"
+    android:background="@drawable/popup_inline_error_above_am"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:text="点我免费注册"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/second_text"
+        android:id="@+id/textView_tl"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+</RelativeLayout>

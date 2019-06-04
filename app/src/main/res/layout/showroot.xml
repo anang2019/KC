@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_hidepupop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="登录中\n请稍候"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:textColor="@color/dxk_bg" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content" >
+        <ProgressBar android:id="@+id/loading_process_dialog_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/dialog_style_xml_color" />
+    </TableRow>
+
+</LinearLayout>

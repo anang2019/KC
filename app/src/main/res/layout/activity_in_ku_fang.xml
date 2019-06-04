@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/inkf_Gbg"
+    android:orientation="vertical"
+    android:id="@+id/wlist">
+
+    <!-- 表格1-伸展 -->
+    <include layout="@layout/top_layout" />
+
+    <TextView
+        android:text=""
+        android:textColor="@color/YB1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:id="@+id/textView14" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollviev1">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout2">
+
+        </TableLayout>
+    </ScrollView>
+
+    <!-- 表格2-收缩 -->
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:allowBackup="true"
+        android:background="@drawable/top"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text=""
+                    android:layout_weight="30"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/textView2" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent">
+                <ImageButton
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:id="@+id/ic_back"
+                    android:visibility="invisible"
+                    android:layout_width="30dp"
+                    android:gravity="center_vertical"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ic_menu_back"
+                    android:clickable="true" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/TableRowgg"
+        android:background="@drawable/popup_inline_error_above_am1"
+        android:layout_height="25dp" >
+
+        <com.example.anang.kc.marqueeText
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:textColor="@color/second_text"
+            android:focusableInTouchMode="true"
+            android:text=""
+            />
+    </TableRow>
+</LinearLayout>

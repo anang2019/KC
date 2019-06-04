@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_height="wrap_content"
+    android:id="@+id/ck_ly"
+    android:orientation="vertical" >
+    <ImageButton
+        android:id="@+id/id_tab_weixin_img1"
+        android:layout_width="45dp"
+        android:layout_height="35dp"
+        android:clickable="false"
+        android:background="@drawable/button_item"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:text="库房"
+        android:clickable="false"
+        android:id="@+id/id_text_home1"
+        />
+</LinearLayout>

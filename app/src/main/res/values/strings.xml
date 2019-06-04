@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">芝麻开花</string>
+    <string name="dataku">data.db</string>
+    <string name="datavar">13</string>
+    <string-array name="CangKu">
+        <item>巨惠达</item>
+        <item>招商局</item>
+        <item>鑫润丰</item>
+        <item>博美</item>
+        <item>顺世</item>
+        <item>鲁骅通</item>
+        <item>乾迅</item>
+        <item>嘉里</item>
+        <item>菲尔斯特 </item>
+        <item>衡宇熙</item>
+        <item>平宇</item>
+        <item>澎湖岛7号</item>
+        <item>事倍达</item>
+        <item>汇佳 </item>
+        <item>四季乡</item>
+        <item>上源以诺</item>
+        <item>普洛斯</item>
+        <item>盈思佳德</item>
+        <item>钧淄</item>
+
+    </string-array>
+    <string-array name="posfull">
+        <item>10</item>
+        <item>9 </item>
+        <item>8</item>
+        <item>7</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4 </item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="colorYW">
+        <item>颜色</item>
+        <item>白 </item>
+        <item>花</item>
+    </string-array>
+    <string-array name="colorYW1">
+        <item>花色</item>
+        <item>全部</item>
+        <item>白 </item>
+        <item>花</item>
+    </string-array>
+    <string-array name="colorYW2">
+        <item>类型</item>
+        <item>全部</item>
+        <item>入货</item>
+        <item>出货</item>
+    </string-array>
+    <string-array name="colorCD">
+        <item>产地</item>
+        <item>埃塞</item>
+        <item>苏丹 </item>
+        <item>多哥 </item>
+        <item>坦桑 </item>
+        <item>莫桑 </item>
+        <item>尼日 </item>
+        <item>马里 </item>
+        <item>塞内 </item>
+        <item>乌干达 </item>
+    </string-array>
+    <string-array name="colorCD1">
+        <item>产地</item>
+        <item>全部</item>
+        <item>埃塞</item>
+        <item>苏丹 </item>
+        <item>多哥 </item>
+        <item>坦桑 </item>
+        <item>莫桑 </item>
+        <item>尼日 </item>
+        <item>马里 </item>
+        <item>塞内 </item>
+        <item>乌干达 </item>
+    </string-array>
+    <string name="help0">1,如果没注册只能使用3个仓库的内容,免费注册就可能正常使用了!</string>
+    <string name="help1">2,首先是仓库界面\n   点击一个仓库就\n   能进入库房内部</string>
+    <string name="help2">3,内部蓝色的表示货物,长短不一样表示储位占用率,点击红圈后出现详细资料,点击绿圈可以给各位老板打电话</string>
+    <string name="help3">4,查询的时候可能按照需要填写：已知票号可以只填票号查询，未知票号可以根据产地、公司、花白、仓库随意筛选</string>
+    <string name="datak1u">564b243d3255</string>
+    <string name="datava1r">程序不能正常使用!\n请更新至最新版!\n或联系客服微信号：</string>
+    <string name="i110">行情信息均来源于网络！</string>
+    <string name="i111">您还不是VIP客户！</string>
+    <string name="i1121">未付费用户不能查看出货情况！</string>
+    <string name="i1">修改成功！</string>
+    <string name="i24">100</string>
+    <string name="i2">修改失败,请稍候重试!</string>
+    <string name="i3">登录成功！</string>
+    <string name="i4">本软件需要联网使用!</string>
+    <string name="i5">您的密码有误!</string>
+    <string name="i6">您还没有注册!</string>
+    <string name="i7">注册成功！</string>
+    <string name="i8">注册数据异常!请稍候重试试!</string>
+    <string name="i9">手机号已注册!请直接登录!</string>
+    <string name="i10">数据异常!请稍候重试试!</string>
+    <string name="i11">您的号码已在其它手机登录,请先退出!</string>
+    <string name="i12">绑定的账户只能在原手机上登录!</string>
+    <string name="i13">请联系客服微信号 </string>
+    <string name="i14"> 找回密码!</string>
+    <string name="i15">没有网络,无法使用!请开启数据连接!</string>
+    <string name="i16">退出失败,请稍候重试!</string>
+    <string name="i17">请先登录!</string>
+    <string name="i18">修改失败,请稍候重试!</string>
+    <string name="i19">请输入6位或以上的密码！</string>
+    <string name="i20">两次输入的密码不同！</string>
+    <string name="i25">101</string>
+    <string name="i21">密码过于简单！</string>
+    <string name="i22">请输入11位手机号码!</string>
+    <string name="i23">退出失败,请稍候重试!</string>
+</resources>
